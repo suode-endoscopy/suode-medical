@@ -1,0 +1,11 @@
+# Robots.txt for SVILER Medical
+# https://sviler.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://sviler.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
