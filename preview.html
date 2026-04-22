@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUODE Medical Website Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #6B21A8 0%, #9333EA 50%, #A855F7 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <!-- Header -->
+    <header class="gradient-bg py-12">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold text-white mb-2">SUODE Medical</h1>
+            <p class="text-purple-200">International Trade Website</p>
+        </div>
+    </header>
+
+    <!-- Pages Preview -->
+    <main class="max-w-6xl mx-auto px-4 py-12">
+        <h2 class="text-2xl font-bold text-gray-900 mb-8 text-center">Website Pages</h2>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Index -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
+                <div class="h-48 gradient-bg flex items-center justify-center">
+                    <i class="fas fa-home text-white text-5xl"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Home Page</h3>
+                    <p class="text-gray-600 text-sm mb-4">Hero, company overview, product categories, advantages</p>
+                    <a href="./index.html" class="inline-block bg-primary text-white px-4 py-2 rounded-lg text-sm hover:bg-secondary transition">
+                        <i class="fas fa-external-link-alt mr-2"></i> Open
+                    </a>
+                </div>
+            </div>
+
+            <!-- Products -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
+                <div class="h-48 gradient-bg flex items-center justify-center">
+                    <i class="fas fa-boxes text-white text-5xl"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Products</h3>
+                    <p class="text-gray-600 text-sm mb-4">Gynecology, Urology, Camera Systems, RF Surgery</p>
+                    <a href="./products.html" class="inline-block bg-primary text-white px-4 py-2 rounded-lg text-sm hover:bg-secondary transition">
+                        <i class="fas fa-external-link-alt mr-2"></i> Open
+                    </a>
+                </div>
+            </div>
+
+            <!-- About -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
+                <div class="h-48 gradient-bg flex items-center justify-center">
+                    <i class="fas fa-building text-white text-5xl"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">About Us</h3>
+                    <p class="text-gray-600 text-sm mb-4">Company story, mission, vision, certifications</p>
+                    <a href="./about.html" class="inline-block bg-primary text-white px-4 py-2 rounded-lg text-sm hover:bg-secondary transition">
+                        <i class="fas fa-external-link-alt mr-2"></i> Open
+                    </a>
+                </div>
+            </div>
+
+            <!-- Support -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
+                <div class="h-48 gradient-bg flex items-center justify-center">
+                    <i class="fas fa-headset text-white text-5xl"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Support</h3>
+                    <p class="text-gray-600 text-sm mb-4">After-sales service, technical support, spare parts</p>
+                    <a href="./support.html" class="inline-block bg-primary text-white px-4 py-2 rounded-lg text-sm hover:bg-secondary transition">
+                        <i class="fas fa-external-link-alt mr-2"></i> Open
+                    </a>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
+                <div class="h-48 gradient-bg flex items-center justify-center">
+                    <i class="fas fa-envelope text-white text-5xl"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Contact</h3>
+                    <p class="text-gray-600 text-sm mb-4">Inquiry form, contact information</p>
+                    <a href="./contact.html" class="inline-block bg-primary text-white px-4 py-2 rounded-lg text-sm hover:bg-secondary transition">
+                        <i class="fas fa-external-link-alt mr-2"></i> Open
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deployment Guide -->
+        <div class="mt-16 bg-white rounded-xl shadow-lg p-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                <i class="fas fa-rocket text-primary mr-3"></i>
+                Deployment Guide
+            </h2>
+            
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Step 1: Push to GitHub</h3>
+                    <div class="bg-gray-900 rounded-lg p-4 overflow-x-auto">
+                        <code class="text-green-400 text-sm">
+# Create a new repository on GitHub, then:<br>
+cd 外贸网站<br>
+git remote add origin https://github.com/YOUR_USERNAME/suode-endoscopy.git<br>
+git push -u origin master
+                        </code>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Step 2: Deploy to Vercel</h3>
+                    <ol class="list-decimal list-inside space-y-2 text-gray-600">
+                        <li>Go to <a href="https://vercel.com" class="text-primary hover:underline">vercel.com</a> and sign up/login</li>
+                        <li>Click "Add New..." → "Project"</li>
+                        <li>Import your GitHub repository</li>
+                        <li>Vercel will auto-detect it's a static site</li>
+                        <li>Click "Deploy"</li>
+                    </ol>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Step 3: Custom Domain</h3>
+                    <ol class="list-decimal list-inside space-y-2 text-gray-600">
+                        <li>After deployment, go to Project Settings → Domains</li>
+                        <li>Add your domain: <code class="bg-gray-100 px-2 py-1 rounded">suode-endoscopy.com</code></li>
+                        <li>Add the DNS records shown by Vercel to your domain registrar (Tencent Cloud)</li>
+                        <li>Wait for SSL certificate to be issued</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="mt-8 bg-primary/10 rounded-xl p-6 text-center">
+            <p class="text-gray-700">
+                <i class="fas fa-envelope text-primary mr-2"></i>
+                Contact Email: <strong>peiling@coze.email</strong>
+            </p>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-8 mt-12">
+        <div class="text-center text-gray-500">
+            <p>&copy; 2025 Hangzhou SUODE Medical Equipment Co., Ltd.</p>
+        </div>
+    </footer>
+</body>
+</html>

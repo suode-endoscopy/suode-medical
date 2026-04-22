@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUODE Medical - Endoscopy Solutions for Global Healthcare</title>
+    <meta name="description" content="Professional endoscopic medical equipment manufacturer. Gynecological, urological, and surgical endoscopes for healthcare providers worldwide.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#6B21A8',
+                        secondary: '#9333EA',
+                        accent: '#A855F7'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg {
+            background: linear-gradient(135deg, #6B21A8 0%, #9333EA 50%, #A855F7 100%);
+        }
+        .hero-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50 top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center space-x-2">
+                        <div class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-xl">S</span>
+                        </div>
+                        <div>
+                            <span class="text-primary font-bold text-xl">SUODE</span>
+                            <span class="text-gray-500 text-sm block">Medical</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-primary font-semibold">Home</a>
+                    <a href="products.html" class="text-gray-600 hover:text-primary transition">Products</a>
+                    <a href="about.html" class="text-gray-600 hover:text-primary transition">About Us</a>
+                    <a href="support.html" class="text-gray-600 hover:text-primary transition">Support</a>
+                    <a href="contact.html" class="bg-primary text-white px-6 py-2.5 rounded-lg hover:bg-secondary transition shadow-md">
+                        Inquire Now
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-primary">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-4 py-4 space-y-3">
+                <a href="index.html" class="block text-primary font-semibold">Home</a>
+                <a href="products.html" class="block text-gray-600">Products</a>
+                <a href="about.html" class="block text-gray-600">About Us</a>
+                <a href="support.html" class="block text-gray-600">Support</a>
+                <a href="contact.html" class="block bg-primary text-white text-center py-2.5 rounded-lg">Inquire Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg hero-pattern min-h-screen flex items-center pt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="text-white">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                        Precision in Every Detail,<br>
+                        <span class="text-yellow-300">Care in Every Solution</span>
+                    </h1>
+                    <p class="text-xl text-purple-100 mb-8">
+                        Leading manufacturer of endoscopic medical equipment, serving healthcare providers across 50+ countries.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="products.html" class="bg-white text-primary px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition shadow-lg">
+                            View Products
+                        </a>
+                        <a href="contact.html" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition">
+                            Get Quote
+                        </a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20">
+                        <img src="https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/a2c7017c-0da3-467a-9c13-8e295afa6490.jpg" 
+                             alt="SUODE Endoscopy Equipment" 
+                             class="rounded-xl w-full shadow-2xl">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-primary mb-2">20+</div>
+                    <div class="text-gray-600">Years Experience</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-primary mb-2">180+</div>
+                    <div class="text-gray-600">Team Members</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-primary mb-2">50+</div>
+                    <div class="text-gray-600">Countries Served</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-primary mb-2">1000+</div>
+                    <div class="text-gray-600">Medical Institutions</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <img src="https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/3c639ec7-d4cc-4ff7-8165-be698f829b32.jpg" 
+                         alt="SUODE Factory" 
+                         class="rounded-2xl shadow-xl">
+                </div>
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                        About <span class="text-primary">SUODE Medical</span>
+                    </h2>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Hangzhou SUODE Medical Equipment Co., Ltd. is a high-tech enterprise specializing in the research, development, production, and distribution of medical devices. Located in Tonglu Economic Development Zone, Zhejiang Province, along the beautiful Fuchun River.
+                    </p>
+                    <p class="text-gray-600 mb-8 leading-relaxed">
+                        Our products cover laparoscopy, thoracoscopy, gynecology, general surgery, ENT, urology, and more. With diverse varieties, complete specifications, and innovative designs, we provide excellent after-sales service. Our products are widely trusted by medical institutions across China.
+                    </p>
+                    <a href="about.html" class="inline-flex items-center text-primary font-semibold hover:text-secondary transition">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Product Categories</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Comprehensive endoscopic solutions for various surgical specialties</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Gynecology -->
+                <a href="products.html#gynecology" class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/533e9159-abf2-4ba5-b64d-98abfaf730de.jpg" 
+                             alt="Gynecology Equipment" 
+                             class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                        <div class="absolute bottom-6 left-6 text-white">
+                            <h3 class="text-2xl font-bold mb-2">Gynecology</h3>
+                            <p class="text-purple-200">Hysteroscopy & Laparoscopy</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600">Advanced hysteroscopes and laparoscopic equipment designed for minimally invasive gynecological procedures, ensuring precision and patient comfort.</p>
+                    </div>
+                </a>
+
+                <!-- Urology -->
+                <a href="products.html#urology" class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/1e4382ae-f283-4d4c-9c67-521743bafee5.jpg" 
+                             alt="Urology Equipment" 
+                             class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                        <div class="absolute bottom-6 left-6 text-white">
+                            <h3 class="text-2xl font-bold mb-2">Urology</h3>
+                            <p class="text-purple-200">Cystoscopy & ureteroscopy</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600">Innovative integrated design for urological endoscopy, providing flexible operation and excellent image quality for accurate diagnosis.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="products.html" class="inline-flex items-center bg-primary text-white px-8 py-4 rounded-lg font-semibold hover:bg-secondary transition shadow-lg">
+                    View All Products <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Why Choose SUODE</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Trusted by healthcare professionals worldwide</p>
+            </div>
+            
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center p-6 rounded-xl bg-purple-50">
+                    <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-certificate text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">ISO Certified</h3>
+                    <p class="text-gray-600">International quality management system certification</p>
+                </div>
+                
+                <div class="text-center p-6 rounded-xl bg-purple-50">
+                    <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-microscope text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Precision Engineering</h3>
+                    <p class="text-gray-600">Advanced manufacturing for superior optical quality</p>
+                </div>
+                
+                <div class="text-center p-6 rounded-xl bg-purple-50">
+                    <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-headset text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">24/7 Support</h3>
+                    <p class="text-gray-600">Global technical support and service network</p>
+                </div>
+                
+                <div class="text-center p-6 rounded-xl bg-purple-50">
+                    <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-hand-holding-heart text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Competitive Pricing</h3>
+                    <p class="text-gray-600">High-quality equipment at accessible prices</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="gradient-bg py-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Ready to Partner with Us?</h2>
+            <p class="text-xl text-purple-100 mb-8">Contact us today for product inquiries, pricing, and partnership opportunities.</p>
+            <a href="contact.html" class="inline-flex items-center bg-white text-primary px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition shadow-xl">
+                <i class="fas fa-envelope mr-3"></i> Send Inquiry Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-12">
+                <div>
+                    <div class="flex items-center space-x-2 mb-6">
+                        <div class="w-10 h-10 gradient-bg rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold">S</span>
+                        </div>
+                        <span class="text-xl font-bold">SUODE Medical</span>
+                    </div>
+                    <p class="text-gray-400">Leading manufacturer of endoscopic medical equipment for healthcare providers worldwide.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Products</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="products.html#gynecology" class="hover:text-white transition">Gynecology</a></li>
+                        <li><a href="products.html#urology" class="hover:text-white transition">Urology</a></li>
+                        <li><a href="products.html" class="hover:text-white transition">General Surgery</a></li>
+                        <li><a href="products.html" class="hover:text-white transition">ENT</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="about.html" class="hover:text-white transition">About Us</a></li>
+                        <li><a href="support.html" class="hover:text-white transition">Support</a></li>
+                        <li><a href="contact.html" class="hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Contact Us</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3 text-primary"></i>
+                            peiling@coze.email
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-3 text-primary"></i>
+                            Tonglu, Zhejiang, China
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500">
+                <p>&copy; 2025 Hangzhou SUODE Medical Equipment Co., Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
