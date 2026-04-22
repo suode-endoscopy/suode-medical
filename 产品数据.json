@@ -1,0 +1,297 @@
+{
+  "company": {
+    "name": "杭州索德医疗设备有限公司",
+    "website": "http://www.hzsuode.com",
+    "email": "hzsuode@163.com",
+    "phone": "+86-0571-64250098",
+    "address": "浙江省桐庐县城瑶琳路7号"
+  },
+  "homepageBanners": [
+    {
+      "url": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/a2c7017c-0da3-467a-9c13-8e295afa6490.jpg",
+      "alt": "精密的延伸，只为更温柔的呵护"
+    }
+  ],
+  "products": [
+    {
+      "category": "妇科",
+      "subCategory": "宫腔镜",
+      "items": [
+        {
+          "name": "宫腔镜",
+          "model": "SWD-GQJ-Ⅰ",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/35b1f1ce-e834-4a60-bad5-05fd87d81057.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/123.html"
+        },
+        {
+          "name": "Z型宫腔镜",
+          "model": "GQJ30",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/81222797-e301-44ab-bcbc-e990dd0cab67.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/150.html"
+        },
+        {
+          "name": "宫腔镜(索德镜)",
+          "model": "SWD-GQJ",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/67fd4c18-4024-42e7-b533-8e61798f6b33.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/142.html"
+        },
+        {
+          "name": "宫腔镜",
+          "model": "SWD-GQJ-",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/0d5406af-7675-43ba-a339-476ae751cd5b.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/124.html"
+        }
+      ]
+    },
+    {
+      "category": "内窥镜",
+      "items": [
+        {
+          "name": "耳镜",
+          "model": "EJ00",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/08ca6df4-4dc0-4a7e-b1f6-8e0c5f3b9d10.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/76.html"
+        },
+        {
+          "name": "鼻窦镜",
+          "model": "BDJ00",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/e466e23d-6c54-46f3-bcd0-b787a1053365.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/78.html"
+        },
+        {
+          "name": "喉镜",
+          "model": "WD1013",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/c0edbd47-56a1-42e8-91ce-6d13affb74ec.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/79.html"
+        },
+        {
+          "name": "斜视喉镜",
+          "model": "HJ12",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/f76a7c52-12d9-4c2f-89db-929da7e50e8d.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/80.html"
+        },
+        {
+          "name": "腹腔镜",
+          "model": "FQJ00",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/2d06d061-9d10-4b0c-b8eb-46a3200abf6d.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/185.html"
+        }
+      ]
+    },
+    {
+      "category": "泌尿科",
+      "items": [
+        {
+          "name": "输尿管内窥镜",
+          "model": "SWD-SNJ-",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/ee620503-0185-42b2-8bcf-956beeff9862.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/81.html"
+        },
+        {
+          "name": "尿道膀胱镜SWD PGJ",
+          "model": "PGJ00",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/5b9ba9a1-fffc-4f21-a4a2-60160a3ef552.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/82.html"
+        },
+        {
+          "name": "尿道膀胱镜",
+          "model": "",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/1e4382ae-f283-4d4c-9c67-521743bafee5.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/103.html"
+        }
+      ]
+    },
+    {
+      "category": "摄像系统",
+      "items": [
+        {
+          "name": "医用内窥镜气腹机",
+          "model": "SWD-QFJ",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/0d1ef0d6-8152-497c-825b-e0d21b2f7287.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/147.html"
+        },
+        {
+          "name": "显示器",
+          "model": "SWD-2410",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/5a806ae1-c078-4ab6-88f5-dc6145e3a670.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/146.html"
+        },
+        {
+          "name": "医用内窥镜摄像机",
+          "model": "SWD-SXJ",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/9c4852b1-0642-4a70-829f-8593e9afa48f.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/145.html"
+        },
+        {
+          "name": "医用内窥镜冷光源",
+          "model": "SWD-LGY",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/250f7f82-7b97-4b30-ba16-48889c62bac0.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/144.html"
+        },
+        {
+          "name": "台车",
+          "model": "SWD-TC",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/cb38a065-013f-4d44-9376-4c07fc137211.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/143.html"
+        }
+      ]
+    },
+    {
+      "category": "射频等离子手术电极",
+      "items": [
+        {
+          "name": "射频等离子主机",
+          "model": "",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/124d980c-ef58-4d82-b010-3e8f1e6e8023.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/141.html"
+        },
+        {
+          "name": "过敏性鼻炎神经切除、消融术",
+          "model": "SWD-Q-E09",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/729ee9d7-4ce9-48e5-b745-a6662793eb0b.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/137.html"
+        },
+        {
+          "name": "过敏性鼻炎神经切除、消融术",
+          "model": "SWD-Q-E09",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/20da922d-2938-43ca-85a2-947813baa872.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/136.html"
+        },
+        {
+          "name": "肥厚性鼻甲打孔、消颤术",
+          "model": "SWD-Q-E16",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/ef9c7dd0-485e-4a5a-a57b-83e655a0100a.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/135.html"
+        },
+        {
+          "name": "鼻出血止血术",
+          "model": "SWD-Q-E24",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/2693b96d-1324-43e0-9900-5376b4613d7b.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/134.html"
+        },
+        {
+          "name": "扁桃体切除、止血术",
+          "model": "SWD-Q-E45",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/4580d631-7046-453a-9570-3b17caebaa99.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/133.html"
+        },
+        {
+          "name": "腺样体切除、止血术",
+          "model": "SWD-Q-E50",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/fbe9ca62-c0dd-44da-88ab-fbffbab2db0e.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/132.html"
+        },
+        {
+          "name": "射频等离子手术电极",
+          "model": "",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/680430c3-464b-471f-9555-d6ff0a040434.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/105.html"
+        }
+      ]
+    },
+    {
+      "category": "一次性产品",
+      "subCategory": "一次性使用内窥镜标本取物袋",
+      "items": [
+        {
+          "name": "一次性使用内窥镜标本取物袋",
+          "model": "SWD-A3",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/c885f595-7fed-4fa6-80ca-cbe00a5430f1.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/126.html"
+        },
+        {
+          "name": "一次性使用内窥镜标本取物袋",
+          "model": "SWD-A1",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/d38da5ac-3845-47f1-8fd4-6193efd015c8.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/125.html"
+        },
+        {
+          "name": "一次性使用内窥镜标本取物袋",
+          "model": "SWD-A4",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/c613341a-a01a-45ab-b325-5e4fb878242c.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/120.html"
+        }
+      ]
+    },
+    {
+      "category": "普外科",
+      "subCategory": "腹腔镜手术器械",
+      "items": [
+        {
+          "name": "带电凝吸引器",
+          "model": "B239",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/9cc6dd43-eefb-4b8a-a582-b013ca6386d2.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/183.html"
+        },
+        {
+          "name": "双极电凝钳Ⅱ型",
+          "model": "B262",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/bf740d86-07f6-4120-b39b-b4412b321f16.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/25.html"
+        },
+        {
+          "name": "松夹钳",
+          "model": "C204",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/febe9312-fffd-41d5-b205-36d1665fcbd5.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/182.html"
+        },
+        {
+          "name": "单动钛夹钳",
+          "model": "C202",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/38e78f45-4efa-41d6-b8d7-864657749b69.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/131.html"
+        },
+        {
+          "name": "塑料夹钳-紫色",
+          "model": "C203",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/e2c7c60e-210b-43af-a5f4-f64c44824cd8.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/129.html"
+        },
+        {
+          "name": "塑料夹钳-绿色",
+          "model": "C203",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/ff0f251b-78f6-4ae9-b17f-103b33361c55.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/130.html"
+        },
+        {
+          "name": "塑料夹钳-金色",
+          "model": "C203",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/5196228f-1c66-4747-a81a-1065fdc3dd2d.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/128.html"
+        },
+        {
+          "name": "手术器械（本色处理）",
+          "model": "C220",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/9d9f0d1a-e931-4290-9fcb-bfb3dd1f2d25.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/69.html"
+        },
+        {
+          "name": "手术器械（防粘处理）",
+          "model": "",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/f9c5c634-7418-4624-8b3b-f5b9eb0b3839.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/68.html"
+        },
+        {
+          "name": "拆卸式手术钳",
+          "model": "",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/efe77dbe-6b1f-43d1-8c4b-554c89e71a9d.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/66.html"
+        },
+        {
+          "name": "口腔开口器SWD-IY型",
+          "model": "SWD-IY",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/75de4d08-bea8-4a93-8874-61c1345fe376.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/106.html"
+        },
+        {
+          "name": "杯式举宫器SWD-F型",
+          "model": "F700",
+          "imageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/2d6d7741-e1ab-48f6-b8f6-449ca6c4f96c.jpg",
+          "detailUrl": "http://www.hzsuode.com/product/92.html"
+        }
+      ]
+    }
+  ],
+  "totalProducts": 41,
+  "collectionDate": "2024"
+}
