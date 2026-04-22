@@ -22,5 +22,5 @@ This is the international website for Hangzhou SUODE Medical Equipment Co., Ltd.
 This site is deployed on Vercel.
 
 ## Contact
-- Email: peiling@coze.email
+- Email: cz-orange@coze.email
 - Website: suode-endoscopy.com
