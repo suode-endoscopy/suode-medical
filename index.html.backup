@@ -126,46 +126,56 @@
         </div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative">
-            <div class="max-w-4xl mx-auto min-h-[80vh] flex items-center">
-                <div class="relative w-full">
-                    <!-- Purple Glow Effect -->
-                    <div class="absolute -inset-20 bg-gradient-to-r from-primary/20 via-accent/15 to-primary/20 blur-3xl opacity-60"></div>
+            <div class="grid lg:grid-cols-2 gap-16 items-center min-h-[80vh]">
+                <div class="space-y-8">
+                    <!-- Region Badge -->
+                    <div class="inline-flex items-center space-x-2 border border-white/20 rounded-full px-4 py-2">
+                        <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+                        <span class="text-gray-400 text-sm">Authorized Distributor - Middle East</span>
+                    </div>
                     
-                    <div class="relative space-y-8">
-                        <!-- Region Badge -->
-                        <div class="inline-flex items-center space-x-2 border border-white/20 rounded-full px-4 py-2">
-                            <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-                            <span class="text-gray-400 text-sm">Authorized Distributor - Middle East</span>
-                        </div>
-                        
-                        <!-- Main Title -->
-                        <h1 class="text-5xl md:text-6xl lg:text-7xl font-black leading-tight">
-                            <span class="text-white">SVILER</span>
-                            <br>
-                            <span class="text-gray-500 text-3xl md:text-4xl lg:text-5xl font-bold">MEDICAL</span>
-                        </h1>
-                        
-                        <!-- Tagline -->
-                        <p class="text-xl md:text-2xl text-gray-400 font-light leading-relaxed">
-                            Integrated Solutions Provider for<br>
-                            <span class="text-white font-medium">Minimally Invasive Surgery</span>
-                        </p>
-                        
-                        <!-- Subtitle -->
-                        <p class="text-gray-500 text-lg leading-relaxed max-w-xl">
-                            Authorized distributor of SUODE Medical Endoscopy Products. Delivering precision medical equipment and comprehensive solutions to healthcare providers across the Middle East region.
-                        </p>
-                        
-                        <!-- CTA Buttons -->
-                        <div class="flex flex-wrap gap-4 pt-4">
-                            <a href="products.html" class="group bg-primary hover:bg-secondary text-white px-8 py-4 rounded-lg font-semibold transition-all shadow-lg shadow-primary/30 flex items-center">
-                                View Products
-                                <i class="fas fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
-                            </a>
-                            <a href="contact.html" class="border border-white/30 hover:border-white hover:bg-white/5 text-white px-8 py-4 rounded-lg font-semibold transition-all flex items-center">
-                                <i class="fas fa-envelope mr-2"></i>
-                                Get Quote
-                            </a>
+                    <!-- Main Title -->
+                    <h1 class="text-5xl md:text-6xl lg:text-7xl font-black leading-tight">
+                        <span class="text-white">SVILER</span>
+                        <br>
+                        <span class="text-gray-500 text-3xl md:text-4xl lg:text-5xl font-bold">MEDICAL</span>
+                    </h1>
+                    
+                    <!-- Tagline -->
+                    <p class="text-xl md:text-2xl text-gray-400 font-light leading-relaxed">
+                        Integrated Solutions Provider for<br>
+                        <span class="text-white font-medium">Minimally Invasive Surgery</span>
+                    </p>
+                    
+                    <!-- Subtitle -->
+                    <p class="text-gray-500 text-lg leading-relaxed max-w-xl">
+                        Authorized distributor of SUODE Medical Endoscopy Products. Delivering precision medical equipment and comprehensive solutions to healthcare providers across the Middle East region.
+                    </p>
+                    
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-wrap gap-4 pt-4">
+                        <a href="products.html" class="group bg-primary hover:bg-secondary text-white px-8 py-4 rounded-lg font-semibold transition-all shadow-lg shadow-primary/30 flex items-center">
+                            View Products
+                            <i class="fas fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                        <a href="contact.html" class="border border-white/30 hover:border-white hover:bg-white/5 text-white px-8 py-4 rounded-lg font-semibold transition-all flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            Get Quote
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Hero Visual -->
+                <div class="relative hidden lg:block">
+                    <div class="relative">
+                        <div class="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 blur-3xl"></div>
+                        <div class="relative bg-gradient-to-br from-gray-900 to-black rounded-3xl p-8 border border-white/10 glow">
+                            <img src="https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/a2c7017c-0da3-467a-9c13-8e295afa6490.jpg" 
+                                 alt="SUODE Endoscopy Equipment" 
+                                 class="rounded-2xl w-full">
+                            <div class="absolute -bottom-4 -right-4 bg-primary px-4 py-2 rounded-lg shadow-lg">
+                                <span class="text-white text-sm font-semibold">SUODE Products</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -202,8 +212,8 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-16 items-center">
                 <div class="order-2 lg:order-1">
-                    <img src="images/about-medical.jpg" 
-                         alt="Endoscopy Equipment" 
+                    <img src="https://omo-oss-image.thefastimg.com/portal-saas/pg2025112818582441674/cms/image/3c639ec7-d4cc-4ff7-8165-be698f829b32.jpg" 
+                         alt="Medical Equipment" 
                          class="rounded-2xl border border-white/10">
                 </div>
                 <div class="order-1 lg:order-2 space-y-6">
